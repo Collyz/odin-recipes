@@ -1,0 +1,61 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    background-color: #A7C7E7;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 0px;
+}
+/*main page*/
+/*For images on main page*/
+.row {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.angel {
+    width: 200px;
+    height: auto;
+}
+
+.pingu{
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+    border: 10px solid;
+    border-color: #F39710;
+}
+
+/*Subheader after images*/
+.main-page-subheader{
+    font-size: 34px;
+    padding-left: 50px;
+    line-height: 0px;
+}
+
+/*Unordered list of links to recipes */
+.recipe-links {
+    font-size: 20px;
+    padding-left: 100px;
+    background: #DCAE96;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: calc(70%);
+    list-style-type: square;
+}
+
+.below-img-li {
+    background: #ffcaad;
+    padding: 5px;
+    margin-left: 15px;
+    color: #722800;
+}
+
+/*water*/
+/*coffee*/
+/*cereal*/
