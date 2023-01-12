@@ -35,7 +35,16 @@ h3 {
     width: min-content;
 }
 
-/*Borders for the three recipe page subheaders*/
+/*Applied to all recipe pages*/
+.recipe-container {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-container img{
+    border: 20px double #5c98e6;
+}
+
 .ingredients {
     border: red double 5px;
 }
@@ -106,20 +115,8 @@ h3 {
 
 
 /*water recipe*/
-.cold-water {
-    display: flex;
-    justify-content: center;
-}
-.cold-water img{
-    border: 20px double #5c98e6;
-}
 /*coffee recipe*/
-.bad-coffee-container {
-    display: flex;
-    justify-content: center;
-}
-
-.bad-coffee-container .bad-coffee-img {
+.recipe-container .bad-coffee-img {
     width: 500px;
     height: auto;
 }
