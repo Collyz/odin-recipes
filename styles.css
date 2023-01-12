@@ -17,19 +17,22 @@ h1 {
 
 h2{
     font-size: 34px;
-    margin-left: 40px;
     margin-top: 20px;
-    text-decoration: underline;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
 }
 p {
     margin: 0;
     margin-top: 5px;
-    margin-left: 25px;
+    text-align: center;
 }
 
 h3 {
     font-size: 20px;
     padding-left: 50px;
+    padding-right: 50px;
+    width: min-content;
 }
 
 /*Borders for the three recipe page subheaders*/
@@ -37,19 +40,25 @@ h3 {
     border: red double 5px;
 }
 
+.steps {
+    border: yellow double 5px;
+}
+
+.links {
+    border: green double 5px;
+}
 /*main page*/
 /*For images on main page*/
-.row {
+.front-page-img-container {
     display: flex;
 } 
 
-.row div {
+.front-page-img-container div {
     margin: auto;
 }
 
 .angel {
     width: 200px;
-    height: auto;
 }
 
 .pingu{
@@ -60,9 +69,15 @@ h3 {
     border-color: #F39710;
 }
 
+/*For the main page header*/
+.main-page-subheader{
+    text-align: center;
+}
+
 /*Unordered list of links to recipes */
 .below-img-div {
     display: flex;
+    justify-content: center;
 }
 
 .below-img-div .recipe-links {
@@ -92,7 +107,20 @@ h3 {
 
 /*water recipe*/
 .cold-water {
-    border: 20px dotted #1172f0;
+    display: flex;
+    justify-content: center;
+}
+.cold-water img{
+    border: 20px double #5c98e6;
 }
 /*coffee recipe*/
+.bad-coffee-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bad-coffee-container .bad-coffee-img {
+    width: 500px;
+    height: auto;
+}
 /*cereal recipe*/
