@@ -1,3 +1,4 @@
+/*Applied to all pages*/
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -9,9 +10,33 @@ html {
 h1 {
     font-size: 50px;
     text-align: center;
-    line-height: 0px;
+    margin-top: 0px;
+    margin-bottom: 5px;
     text-decoration: underline;
 }
+
+h2{
+    font-size: 34px;
+    margin-left: 40px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+p {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+h3 {
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+/*Borders for the three recipe page subheaders*/
+.ingredients {
+    border: red double 5px;
+}
+
 /*main page*/
 /*For images on main page*/
 .row {
@@ -35,31 +60,39 @@ h1 {
     border-color: #F39710;
 }
 
-/*Subheader after images*/
-.main-page-subheader{
-    font-size: 34px;
-    padding-left: 50px;
-    line-height: 0px;
+/*Unordered list of links to recipes */
+.below-img-div {
+    display: flex;
 }
 
-/*Unordered list of links to recipes */
-.recipe-links {
+.below-img-div .recipe-links {
+    flex: 0 0 auto;
+    align-self: flex-start;
     font-size: 20px;
-    padding-left: 100px;
     background: #DCAE96;
-    padding: 20px;
+    padding-right: 20px;
     margin-left: 30px;
-    margin-right: calc(70%);
-    list-style-type: square;
+    margin-right: 30px;
 }
 
 .below-img-li {
+    flex: 0 0 auto;
     background: #ffcaad;
-    padding: 5px;
-    margin-left: 15px;
+    padding: 10px;
+    margin-right: 15px;
     color: #722800;
 }
 
-/*water*/
-/*coffee*/
-/*cereal*/
+.towel-guy-img {
+    flex: 0 0 auto;
+    width: auto;
+    height: 170px;
+}
+
+
+/*water recipe*/
+.cold-water {
+    border: 20px dotted #1172f0;
+}
+/*coffee recipe*/
+/*cereal recipe*/
